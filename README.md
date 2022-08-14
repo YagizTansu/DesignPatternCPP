@@ -1,2 +1,2 @@
 # DesignPatternCPP
-Command Pattern
+Command Pattern - Command Pattern Example
