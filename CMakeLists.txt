@@ -7,6 +7,10 @@ project ("DesignPatternCPP")
 
 # Add source to this project's executable.
 add_executable (DesignPatternCPP   "CommandPatternExample/CalculatorCommandExample.cpp")
+add_executable (DesignPatternCPP_command   "CommandPatternExample/CalculatorCommandExample.cpp")
+add_executable (DesignPatternCPP_composite   "CompositePattern/Composite.cpp")
+add_executable (DesignPatternCPP_commpositeExample   "CompositePatternExample/CompositePatternExample.cpp")
+
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
