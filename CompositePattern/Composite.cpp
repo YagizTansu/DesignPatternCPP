@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//Transperancy code 
 class Component {
 public:
     virtual ~Component() {}
@@ -73,17 +73,15 @@ public:
 int main() {
     CompositeElement compositeElement;
     CompositeElement *compositeElement2 = new CompositeElement();
-    compositeElement.Add(new PrimitiveElement());
-    compositeElement.Add(new PrimitiveElement());
-    compositeElement.Add(new PrimitiveElement());
+    compositeElement.Add(new PrimitiveElement());//add Leaf(primitiveElement) to composite element
+    compositeElement.Add(new PrimitiveElement());//add Leaf(primitiveElement) to composite element
+    compositeElement.Add(new PrimitiveElement());//add Leaf(primitiveElement) to composite element
 
-    compositeElement2->Add(new PrimitiveElement());
-    compositeElement2->Add(new PrimitiveElement());
-    compositeElement2->Add(new PrimitiveElement());
-
-    compositeElement.Add(compositeElement2);
-
-
+    compositeElement2->Add(new PrimitiveElement());//add Leaf(primitiveElement) to composite element
+    compositeElement2->Add(new PrimitiveElement());//add Leaf(primitiveElement) to composite element
+    compositeElement2->Add(new PrimitiveElement());//add Leaf(primitiveElement) to composite element
+    compositeElement.Add(compositeElement2); //add composite element to composite element
+    
     compositeElement.Operation();
     
     return 0;
