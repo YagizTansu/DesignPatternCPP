@@ -6,7 +6,7 @@ cmake_minimum_required (VERSION 3.8)
 project ("DesignPatternCPP")
 
 # Add source to this project's executable.
-add_executable (DesignPatternCPP_1   "CommandPattern/Command.cpp" "CommandPattern/Command.h")
+add_executable (DesignPatternCPP   "CommandPattern/Command.cpp" "CommandPattern/Command.h")
 add_executable (DesignPatternCPP_2   "CommandPatternExample/CalculatorCommandExample.cpp")
 
 
