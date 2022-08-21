@@ -73,7 +73,7 @@ private:
 //Invoker
 class User {
 private:
-	int current;
+	int current = 0;
 	vector<Command*> _commands;
 public:
 	void Redo(int levels) {
