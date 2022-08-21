@@ -1,3 +1,3 @@
 # DesignPatternCPP
-Command Pattern - Command Pattern Example(Calculator) /n
+Command Pattern - Command Pattern Example(Calculator) <br>
 Composite Pattern - Composite Pattern Example(Picture)
