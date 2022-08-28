@@ -11,6 +11,8 @@ add_executable (DesignPatternCPP_command   "CommandPatternExample/CalculatorComm
 add_executable (DesignPatternCPP_composite   "CompositePattern/Composite.cpp")
 add_executable (DesignPatternCPP_commpositeExample   "CompositePatternExample/CompositePatternExample.cpp")
 add_executable (DesignPatternCPP_singleton   "SingletonPattern/Singleton.cpp")
+add_executable (DesignPatternCPP_singletonThreadSafe   "SingeltonPatternThreadSafe/Singleton_ThreadSafe.cpp")
+
 
 
 
