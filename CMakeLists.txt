@@ -12,9 +12,7 @@ add_executable (DesignPatternCPP_composite   "CompositePattern/Composite.cpp")
 add_executable (DesignPatternCPP_commpositeExample   "CompositePatternExample/CompositePatternExample.cpp")
 add_executable (DesignPatternCPP_singleton   "SingletonPattern/Singleton.cpp")
 add_executable (DesignPatternCPP_singletonThreadSafe   "SingeltonPatternThreadSafe/Singleton_ThreadSafe.cpp")
-
-
-
+add_executable (DesignPatternCPP_observer  "ObserverPattern/ObserverPattern.cpp")
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
