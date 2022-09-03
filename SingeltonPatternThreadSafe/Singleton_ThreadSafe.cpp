@@ -15,8 +15,6 @@ public:
 	// Returns a reference to the single instance.
 	static Singleton* getInstance() {
 
-
-
 		if (singleInstance == NULL) {
 			lock.lock();
 			if (singleInstance == NULL)
@@ -24,7 +22,6 @@ public:
 
 			lock.unlock();
 		}
-
 		return singleInstance;
 	}
 };
@@ -43,7 +40,7 @@ int main() {
 	instance2 = Singleton::getInstance();
 	instance3 = Singleton::getInstance();
 
-	if (instance1 == instance2 && instance1 == instance3)
+	if (instance1 == instance2 && instance1 == instance3 && instance2 == instance3)
 		cout << "Singleton Pattern Worked" << endl;
 
 	return 0;
