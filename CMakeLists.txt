@@ -14,6 +14,8 @@ add_executable (DesignPatternCPP_singleton   "SingletonPattern/Singleton.cpp" )
 add_executable (DesignPatternCPP_singletonThreadSafe   "SingeltonPatternThreadSafe/Singleton_ThreadSafe.cpp" )
 add_executable (DesignPatternCPP_observer  "ObserverPattern/ObserverPattern.cpp" )
 add_executable (DesignPatternCPP_observerExample  "ObserverPatternExample/RoomsAndSensors.cpp" )
+add_executable (DesignPatternCPP_visitor  "VisitorPattern/Visitor.cpp" )
+
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET DesignPatternCPP PROPERTY CXX_STANDARD 20)
