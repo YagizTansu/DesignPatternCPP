@@ -15,6 +15,7 @@ add_executable (DesignPatternCPP_singletonThreadSafe   "SingeltonPatternThreadSa
 add_executable (DesignPatternCPP_observer  "ObserverPattern/ObserverPattern.cpp" )
 add_executable (DesignPatternCPP_observerExample  "ObserverPatternExample/RoomsAndSensors.cpp" )
 add_executable (DesignPatternCPP_visitor  "VisitorPattern/Visitor.cpp" )
+add_executable (DesignPatternCPP_visitorExample  "VisitorPatternExample/VisitorExample.cpp" )
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
